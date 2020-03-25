@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #ffc3df;
+}
+
+.kana {
+    width: 100%;
+    line-height: 50vh;
+    text-align: center;
+    font-size: 1000%;
+}
+
+.mode {
+    width: 155px;
+    line-height: 55px;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: outset;
+    font-size: 200%;
+    background: #8fe2fc;
+    cursor: default;
+    transition: 0.3s;
+}
+
+.mode:hover {
+    background: #86c4ff;
+}
+
+input {
+    text-align: center;
+    width: 200px;
+    line-height: 75px;
+    font-size: 300%;
+}
+
